@@ -2,20 +2,14 @@
 
 ## "About Me " project
 
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+w I share my story, and experiences. Discover who I am, my hobbies, fun facts,  and my bucket list.  and feel free to connect or leave comments. Enjoy your visit!
 
-### Author: Student/Group Name
+### Author: Michelangelo
 
 ### Links and Resources
 
-* [submission PR](http://xyz.com)
-* Any Links you used as reference
-
 ### Lighthouse Accessibility Report Score
 
-* Provide a screenshot of your score after running a Lighthouse Accessibility report.
+* [lighthousescore](img/LighthouseScoreForLab2.jpg)
 
 ### Reflections and Comments
-
-* Consider including the answers to your daily journal and submission questions here
-* This is also a good place to reflect on the tools and resources used and learned
