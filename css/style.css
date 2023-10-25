@@ -2,26 +2,72 @@
   header{
     text-align: center;
     font-size: 80px;
-    padding: 60
-    px;
+    padding: 20px;
   }
   body {
     background-color: #265746; /
-    
   }
 
-  p {
+  .my-intro {
     text-align: center;
-    padding: 40px 40px;
+    padding: 5px 5px;
     display: flex;
   justify-content: center;
   align-items: center;
   height: 30vh;
   margin: 2px;
-  font-size: 30px;
-  border: 3px solid #6d4e00; /* Border styles */
+  font-size: 20px;
+  border: 3px solid #6d4e00; 
+  /* border-style: ; */
   display: inline-flexbox;
   border-radius: 10px; /* Rounded corners */
   }
 
-  
+  .expre {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+    /* text-align: center; */
+    /* border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 60px;  */
+  }
+
+  .hikeHead {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+  }
+
+  ul {
+    list-style: square; 
+}
+
+ul li {
+    margin-left: 60px; /* Adjust the value to control the indentation */
+    /* background-color: rgb(253, 205, 142); */
+}
+
+
+ol li {
+  margin-left: 60px; /* Adjust the value to control the indentation */
+  margin-bottom: 10px;
+  list-style: decimal;
+}
+
+footer {
+  text-align: center;
+  margin: 10px;
+}
