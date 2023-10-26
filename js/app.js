@@ -1,13 +1,13 @@
 'use strict';
 
-let userName = prompt('Please enter your name:');
+//let userName = prompt('Please enter your name:');
 
 // function welcomeUser(userName) {
-  if (userName === userName.charAt(0).toUpperCase() + userName.slice(1)) { // Capitalize the first letter
-    alert('Welcome, ' + userName + ' to the Yes or No Quiz');
-  } else {
-    alert('You did not provide a name. Please refresh the page and try again.');
-  }
+//if (userName === userName.charAt(0).toUpperCase() + userName.slice(1)) { // Capitalize the first letter
+//  alert('Welcome, ' + userName + ' to the Yes or No Quiz');
+//} else {
+ // alert('You did not provide a name. Please refresh the page and try again.');
+//}
 // }
 
 // welcomeUser();
@@ -15,14 +15,17 @@ let userName = prompt('Please enter your name:');
 let correctAnswers = 0;
 
 // Question 1
-let userResponse2 = prompt('Do you know if Michelangelo grew up in the Philippines?').toLowerCase();
-console.log(userResponse2);
-if (userResponse2 === 'yes' || userResponse2 === 'y') {
-  alert('Correct! Michelangelo did grow up in the Philippines.');
-  correctAnswers++;
-} else {
-  alert('Incorrect. Michelangelo did grow up in the Philippines.');
+function userResponse() {
+  let userResponse2 = prompt('Do you know if Michelangelo grew up in the Philippines?').toLowerCase();
+  console.log(userResponse2);
+  if (userResponse2 === 'yes' || userResponse2 === 'y') {
+    alert('Correct! Michelangelo did grow up in the Philippines.');
+    correctAnswers++;
+  } else {
+    alert('Incorrect. Michelangelo did grow up in the Philippines.');
+  }
 }
+userResponse();
 
 // Question 2
 let userResponse3 = prompt('Do you know if Michelangelo joined the Army right after high school?').toLowerCase();
