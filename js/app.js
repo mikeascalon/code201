@@ -1,7 +1,6 @@
 'use strict';
 
-//let userName = prompt('Please enter your name:');
-
+let userName = prompt('Please enter your name:');
 
 function welcomeUser() {
   if (userName !== null && userName !== '') {
@@ -11,7 +10,6 @@ function welcomeUser() {
     alert('You did not provide a name. Please refresh the page and try again.');
   }
 }
-
 
 
 let correctAnswers = 0;
@@ -30,7 +28,6 @@ function quiz1() {
   }
 
   return correctAnswers;
-
 
 }
 
