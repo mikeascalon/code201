@@ -1,6 +1,7 @@
 'use strict';
 
-let userName = prompt('Please enter your name:');
+//let userName = prompt('Please enter your name:');
+
 
 function welcomeUser() {
   if (userName !== null && userName !== '') {
@@ -12,10 +13,13 @@ function welcomeUser() {
 }
 
 
+
 let correctAnswers = 0;
 
 // Question 1
+
 function quiz1() {
+
   let userResponse2 = prompt('Do you know if Michelangelo grew up in the Philippines?').toLowerCase();
   console.log(userResponse2);
   if (userResponse2 === 'yes' || userResponse2 === 'y') {
@@ -24,7 +28,10 @@ function quiz1() {
   } else {
     alert('Incorrect. Michelangelo did grow up in the Philippines.');
   }
+
   return correctAnswers;
+
+
 }
 
 
